@@ -26,7 +26,7 @@ public class Main {
 		CompanyItem employee2 = new Employee("Jake", "pd-10732", 10054.87);
 		CompanyItem employee3 = new Employee("Jil", "pd-10548", 19554.87);
 		// создание структурной единицы компании на основе отдела
-		CompanyItem department = new Department("Jime", "pd-10856");
+		CompanyItem department = new Department("Developers", "pd-10000");
 		// добавление нескольких сотрудников в отдел
 		((Department) department).addCompanyItem(employee1);
 		((Department) department).addCompanyItem(employee2);
